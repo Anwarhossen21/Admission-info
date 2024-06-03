@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Universities - Admission informations</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </head>
+<body>
+  <!-- header navbar -->
+  <div class="container custom-bg-1 fixed-top">
+    <div class="row ">
+      <div class="col-lg-5 ">
+        <a href="index.html" class="text-decoration-none">
+          <img src="images/admission_info_logo.png" alt="" class="ms-5 pt-2 w-25 " >
+        </a>
+      </div>
+      <div class="col-lg-7 pt-3 pe-5">
+        <nav class="main-nav">
+            <ul class="main-nav-list d-flex justify-content-end ">
+              <li>
+                <a class="main-nav-link" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="about.html">About Us</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="blog.html" >Blog</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="contact_us.html" >Contact us</a>
+              </li>
+              <li class="nav-item dropdown-center text-white">
+                <a class="main-nav-link dropdown-toggle fw-bold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu bg-secondary-subtle ">
+                  <li><a class="dropdown-item fw-bold " href="schools.html" target="_blank">Schools</a></li>
+                  <li><a class="dropdown-item fw-bold" href="colleges.html" target="_blank">Colleges</a></li>
+                  <li><a class="dropdown-item fw-bold" href="universitys.html" target="_blank">Universities</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </nav>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- header of this page -->
+    <div class="container mt-5 pt-3">
+        <div class="row ">
+            <div class="col-lg-6 m-0 p-0 my-4 ps-3">
+                <h1 class="fw-bold ps-2" style="border-left: #6621BA solid 5px;">List of Universities by your criteria</h1>
+            </div>
+            <div class="col-lg-6 m-0 p-0 pe-5 mt-4 pt-1">
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Type School name"
+                    aria-label="Search" id="search-item" onkeyup="search()">
+                    <a href="" class="see-more-btn text-decoration-none fw-bold px-3 pt-1">Search</a>
+              </form>
+          </div>
+        </div>
+    </div>
+
+    <!-- university lists -->
+
+    <div id="items-list" class="container">
+        <!-- DU -->
+        <div class="row items m-0 p-0 py-4 px-3 custom-border-color border-start-0 border-top-0 border-end-0 shadow rounded">
+            <div class="col-lg-4 ">
+                <img src="images/universities/DU image.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6">
+                <h4>University of Dhaka</h4>
+                <p>
+                    <i class="bi bi-geo-alt-fill text-success"></i> Shahbag in Dhaka, Bangladesh
+                </p>
+                <p class="mb-0">The University of Dhaka , also known as Dhaka University or simply (DU), is the oldest university in modern Bangladesh. Established in 1921 during the British Raj, it has made significant contributions to the modern history of Bangladesh. After the Partition of India, it became the focal point of progressive and democratic movements in Pakistan. Its students and teachers played a central role in the rise of Bengali nationalism and the independence of Bangladesh...</p>
+            </div>
+            <div class="col-lg-2 position-relative">
+                <h5 class="text-end">EIIN: 136584</h5>
+                <a href="" class="see-more-btn text-decoration-none fw-bold position-absolute end-0 bottom-0">See more</a>
+            </div>
+        </div>
+        <!-- BUTE -->
+        <div class="row items m-0 p-0 py-4 px-3 custom-border-color border-start-0 border-top-0 border-end-0 shadow rounded">
+            <div class="col-lg-4 ">
+                <img src="images/universities/BUTE image.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 ">
+                <h4>Bangladesh University of Engineering and Technology</h4>
+                <p>
+                    <i class="bi bi-geo-alt-fill text-success"></i> BUET Central Rd, Dhaka 1000, Bangladesh
+                </p>
+                <p class="mb-0">
+                    Established in 1962, Bangladesh University of Engineering and Technology is a non-profit public higher education institution located in the the urban setting of the metropolis of Dhaka (population range of over 5,000,000 inhabitants). Officially accredited/recognized by the University Grants Commission of Bangladesh, Bangladesh University of Engineering and Technology (BUET) is a small (enrollment range: 5,000-5,999 students) coeducational higher education institution...
+                </p>
+            </div>
+            <div class="col-lg-2 position-relative">
+                <h5 class="text-end">EIIN: 136618</h5>
+                <a href="" class="see-more-btn text-decoration-none fw-bold position-absolute end-0 bottom-0">See more</a>
+            </div>
+        </div>
+        <!-- RU -->
+        <div class="row items m-0 p-0 py-4 px-3 custom-border-color border-start-0 border-top-0 border-end-0 shadow rounded">
+            <div class="col-lg-4 ">
+                <img src="images/universities/RU image.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 ">
+                <h4>Rajshahi University</h4>
+                <p>
+                    <i class="bi bi-geo-alt-fill text-success"></i> Motihar, Rajshahi, Bangladesh
+                </p>
+                <p class="mb-0">
+                    The University of Rajshahi, also known as Rajshahi University is a public university located in Rajshahi, a city in north-western Bangladesh. University of Rajshahi was established in 1953, the second university to be established in what was then East Pakistan. The university's 58 departments are organised into ten faculties. Rajshahi University is located in a 753 acres (3 km2) campus in Motihar, 3 kilometres (2 mi) from the Rajshahi city centre...
+                </p>
+            </div>
+            <div class="col-lg-2 position-relative">
+                <h5 class="text-end">EIIN: 136586</h5>
+                <a href="" class="see-more-btn text-decoration-none fw-bold position-absolute end-0 bottom-0">See more</a>
+            </div>
+        </div>
+        <!-- jahangirnagar university -->
+        <div class="row items m-0 p-0 py-4 px-3 custom-border-color border-start-0 border-top-0 border-end-0 shadow rounded">
+            <div class="col-lg-4 ">
+                <img src="images/universities/jahangirnagar university image.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 ">
+                <h4> Jahangirnagar University</h4>
+                <p>
+                    <i class="bi bi-geo-alt-fill text-success"></i> Savar, Dhaka, Bangladesh
+                </p>
+                <p class="mb-0">
+                    The university was established in 1970 by the Jahangirnagar Muslim University Ordinance of the government of Pakistan. Its first vice-chancellor, Mafiz Uddin Ahmad (PhD in chemistry, University of Illinois, Chicago) took up office on 24 September 1970. The first group of students, a total of 150, were enrolled in four departments: Economics, Geography, Mathematics, and Statistics. Its formal inauguration was delayed until 12 January 1971,...
+                </p>
+            </div>
+            <div class="col-lg-2 position-relative">
+                <h5 class="text-end">EIIN: 108460</h5>
+                <a href="" class="see-more-btn text-decoration-none fw-bold position-absolute end-0 bottom-0">See more</a>
+            </div>
+        </div>
+        <!-- CU -->
+        <div class="row items m-0 p-0 py-4 px-3 custom-border-color border-start-0 border-top-0 border-end-0 shadow rounded">
+            <div class="col-lg-4 ">
+                <img src="images/universities/CU image.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 ">
+                <h4> University of Chittagong</h4>
+                <p>
+                    <i class="bi bi-geo-alt-fill text-success"></i> Hathazari, Chittagong, Bangladesh
+                </p>
+                <p class="mb-0">
+                    The University of Chittagong  is a public, multidisciplinary, research university located in Hathazari Upazila, Chittagong District, Bangladesh. The university was established in 1966.It is one of the largest universities by campus area in Bangladesh, and has approximately 22,000 students and 750 faculty members. University of Chittagong is located in Fatehpur Union, Hathazari Upazila about 22 kilometres north of the Chittagong city around 1753.88 acres of hilly and flat land...
+                </p>
+            </div>
+            <div class="col-lg-2 position-relative">
+                <h5 class="text-end">EIIN: 136587</h5>
+                <a href="" class="see-more-btn text-decoration-none fw-bold position-absolute end-0 bottom-0">See more</a>
+            </div>
+        </div>
+        <!-- BRAC university -->
+        <div class="row items m-0 p-0 py-4 px-3 custom-border-color border-start-0 border-top-0 border-end-0 shadow rounded">
+            <div class="col-lg-4 ">
+                <img src="images/universities/BRAC university image.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 ">
+                <h4> BRAC University</h4>
+                <p>
+                    <i class="bi bi-geo-alt-fill text-success"></i> Merul Badda, Dhaka, Bangladesh
+                </p>
+                <p class="mb-0">
+                    BRAC University (BRACU) was established in 2001. It follows a liberal arts approach to education which nurtures fresh ideas and gives new impetus to the field of tertiary education. It ensures a high quality of education and aims to meet the demands of contemporary times. Building on BRAC's experience of seeking solutions to challenges posed by extreme poverty, BRACU hopes to instill in its students a commitment to working towards national development and progress...
+                </p>
+            </div>
+            <div class="col-lg-2 position-relative">
+                <h5 class="text-end">EIIN: 136643</h5>
+                <a href="" class="see-more-btn text-decoration-none fw-bold position-absolute end-0 bottom-0">See more</a>
+            </div>
+        </div>
+         <!-- Bangladesh Agricultural University -->
+        <div class="row items m-0 p-0 py-4 px-3 custom-border-color border-start-0 border-top-0 border-end-0 shadow rounded">
+            <div class="col-lg-4 ">
+                <img src="images/universities/BAU image.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 ">
+                <h4> Bangladesh Agricultural University</h4>
+                <p>
+                    <i class="bi bi-geo-alt-fill text-success"></i>  Mymensingh city, Bangladesh
+                </p>
+                <p class="mb-0">
+                    Established in 1961, Bangladesh Agricultural University is a non-profit public higher education institution located in the the urban setting of the medium-sized city of Mymensingh (population range of 500,000-1,000,000 inhabitants), Dhaka. Officially accredited/recognized by the University Grants Commission of Bangladesh, Bangladesh Agricultural University (BAU) is a large (enrollment range: 15,000-19,999 students) coeducational higher education institution...
+                </p>
+            </div>
+            <div class="col-lg-2 position-relative">
+                <h5 class="text-end">EIIN: 136588</h5>
+                <a href="" class="see-more-btn text-decoration-none fw-bold position-absolute end-0 bottom-0">See more</a>
+            </div>
+        </div>
+        <!-- North South University -->
+        <div class="row items m-0 p-0 py-4 px-3 custom-border-color border-start-0 border-top-0 border-end-0 shadow rounded">
+            <div class="col-lg-4 ">
+                <img src="images/universities/NSU image.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 ">
+                <h4> North South University</h4>
+                <p>
+                    <i class="bi bi-geo-alt-fill text-success"></i>  Bashundhara Residential Area, Dhaka, Bangladesh
+                </p>
+                <p class="mb-0">
+                    North South University (Bengali: নর্থসাউথ বিশ্ববিদ্যালয়) or NSU is the first private university of Bangladesh.[2] The government of Bangladesh approved the establishment of North South University in 1992 under the Private University Act (PUA) 1992 (now replaced by PUA 2010). The university was formally inaugurated on February 10, 1993, by the Prime Minister of Bangladesh. The university's campus is at khaza baba road at Basundhara in Dhaka...
+                </p>
+            </div>
+            <div class="col-lg-2 position-relative">
+                <h5 class="text-end">EIIN: 136585</h5>
+                <a href="" class="see-more-btn text-decoration-none fw-bold position-absolute end-0 bottom-0">See more</a>
+            </div>
+        </div>
+    </div>
+
+    
+  <!-- footer -->
+  <div class="container rounded mt-4 custom-border-color border-end-0 border-start-0 border-bottom-0" style="background-color: #e7edf3;">
+    <div class="row">
+      <div class="col-lg-4 ps-5 mt-4">
+        <a href="index.html"><img src="images/admission_info_logo2.png" alt="" class="w-75"></a>
+        <h5 class="fw-bold mt-3">Stay Connected</h5>
+        <ul class="list-unstyled d-flex mt-2">
+          <li class="p-2 px-3 me-2 custom-border-color rounded-circle">
+            <a href="" class="text-decoration-none "><i class="bi bi-facebook text-primary"></i></a>
+          </li>
+          <li class="p-2 px-3 me-2 custom-border-color rounded-circle">
+            <a href="" class="text-decoration-none "><i class="bi bi-twitter text-primary"></i></a>
+          </li>
+          <li class="p-2 px-3 me-2 custom-border-color rounded-circle">
+            <a href="" class="text-decoration-none "><i class="bi bi-youtube text-danger"></i></a>
+          </li>
+          
+        </ul>
+
+      </div>
+
+      <div class="col-lg-4 mt-4">
+        <h4 class="fw-bold">SERVICES</h4>
+        <ul class="list-unstyled">
+          <li><a href="schools.html" target="_blank" class="text-decoration-none fs-5 footer-btns">Schools</a></li>
+          <li><a href="colleges.html" target="_blank" class="text-decoration-none fs-5 footer-btns">Colleges</a></li>
+          <li><a href="universitys.html" target="_blank" class="text-decoration-none fs-5 footer-btns">Universities</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 mt-4">
+        <h4 class="fw-bold">SUPPORT</h4>
+        <ul class="list-unstyled">
+          <li><a href="blog.html" class="text-decoration-none fs-5 footer-btns ">Blog</a></li>
+          <li><a href="contact_us.html" class="text-decoration-none fs-5 footer-btns ">Contact us</a></li>
+          <li><a href="about.html" class="text-decoration-none fs-5 footer-btns ">About us</a></li>
+          <li><a href="terms of use.html" class="text-decoration-none fs-5 footer-btns ">Terms of use</a></li>
+          <li><a href="privacy_policy.html" class="text-decoration-none fs-5 footer-btns ">Privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-12 text-center custom-bg-1 text-white">
+        <p class="mb-0">© 2024 Admission info. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

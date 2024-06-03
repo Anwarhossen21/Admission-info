@@ -1,0 +1,120 @@
+*{
+  font-family: 'Calibri';
+}
+.header-img-text{
+    margin-top: 200px;
+    margin-left: 100px;
+    border-left: lightgray solid 10px;
+    border-right: lightgray solid 10px;
+
+    border-radius: 20px;
+    
+}
+
+/* NAVIGATION */
+/**************************/
+
+/* .header {
+  background: linear-gradient(to right, #9349ee, #6621BA);
+} */
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+  border-bottom: #cf711f solid 2px;
+  /* border-radius: 5px; */
+  padding: 0.3rem;
+}
+
+
+  
+  /* ********************** */
+
+.custom-bg-1{
+    background-color: #6621BA;
+}
+.custom-color-1{
+    color: #6621BA;
+}
+.custom-txt-color{
+    color: #6621BA;
+}
+.custom-border{
+    border-color: #6621BA;
+    border-bottom: #6621BA solid 5px;
+    border-radius: 10px;
+}
+.custom-border-color{
+    border: #6621BA solid 3px;
+    border-color: #6621BA;
+}
+
+/* see more button */
+.see-more-btn:link,
+.see-more-btn:visited{
+    color: #6621BA;
+    background-color: white;
+    border: #6621BA solid 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+.see-more-btn:hover,
+.see-more-btn:active{
+    color: white;
+    background-color: #6621BA;
+    border: #6621BA solid 1px;
+    border-radius: 5px;
+    padding: 4px;
+    transition: all 0.2s;
+}
+
+
+/* home cards animation */
+.cards-animation img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+.cards-animation img:hover {
+    transform: scale(1.1);
+}
+
+.cards-animation {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.cards-animation:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+/* ************************************** */
+
+/* footer buttons */
+.footer-btns:link,
+.footer-btns:visited{
+  color: black;
+}
+.footer-btns:hover,
+.footer-btns:active{
+  color: #cf711f;
+}
+
